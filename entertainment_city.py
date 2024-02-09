@@ -22,7 +22,7 @@ csv_filename = "entertainment_city.csv"  # 輸出檔名
 # ##################
 
 entry_list = []
-page_total = 100  # 最大頁數
+page_total = 100  # 假定的最大頁碼，後續會動態更新
 page = 1
 
 while page <= page_total and len(entry_list) < limit_size:
