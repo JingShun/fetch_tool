@@ -70,10 +70,11 @@ if len(entry_list) == 0:
 
 print("輸出檔案: " + csv_filename)
 
-fields = list(entry_list[0].keys())
+# 建立檔案
 file = open(csv_filename, "w", newline="", encoding="utf-8")
 
 # 寫入欄位名稱
+fields = list(entry_list[0].keys())
 writer = csv.DictWriter(file, fieldnames=fields)
 writer.writeheader()
 
