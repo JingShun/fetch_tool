@@ -1,9 +1,10 @@
 # 目錄
-- (2024/02/09) [抓台灣娛樂城的地點 entertainment_city.py](#抓台灣娛樂城的地點-entertainment_citypy)
-- (2023/10/07) [依照姓名去撈司法判決書 download_judgment_book.py](#依照姓名去撈司法判決書-download_judgment_bookpy)
+- [抓台灣娛樂城的地點 entertainment_city.py](#抓台灣娛樂城的地點-entertainment_citypy)(2024/02/09)
+- [依照姓名去撈司法判決書 download_judgment_book.py](#依照姓名去撈司法判決書-download_judgment_bookpy)(2023/10/07)
 
 
 # 抓台灣娛樂城的地點 entertainment_city.py
+2024/02/09
 抓台灣娛樂城的地點，並輸出到檔案中
 
 ## 操作方式
@@ -19,7 +20,7 @@ python3 entertainment_city.py
 
 
 # 依照姓名去撈司法判決書 download_judgment_book.py
-
+2023/10/07
 可協助去司法院的裁判書系統抓指定姓名的與法院的判決書內文
 
 [司法院的裁判書系統](https://judgment.judicial.gov.tw/FJUD/Default.aspx)
