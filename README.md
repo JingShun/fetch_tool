@@ -15,12 +15,13 @@
 - code: entertainment_city.py
 
 ## 操作方式
-1. 修正連結
-因發現對方會變更伺服器，使用時要先確認最新的網址，自行更新 base_url 變數
+1. 調整參數
+因發現對方會變更伺服器，使用時要先確認最新的網址，自行更新 base_url 變數；其他變數依需求自行調整
 2. 執行以下語法
 ```python
 python3 entertainment_city.py
 ```
+![](entertainment_city.jpg)
 
 ## 輸出
 依照csv_filename指定的名稱來輸出，欄位有 名稱、地點、電話
