@@ -72,14 +72,15 @@ print("輸出檔案: " + csv_filename)
 
 fields = list(entry_list[0].keys())
 file = open(csv_filename, "w", newline="", encoding="utf-8")
+
+# 寫入欄位名稱
 writer = csv.DictWriter(file, fieldnames=fields)
+writer.writeheader()
 
+# 寫入檔案
 for entry in entry_list:
-    # 寫入欄位名稱
-    writer.writeheader()
-
-    # 寫入字典資料
     writer.writerow(entry)
 
 file.close()
 print("輸出完成")
+
