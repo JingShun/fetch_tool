@@ -45,4 +45,4 @@ python3 entertainment_city.py
 ```
 
 ## 輸出
-依照csv_filename指定的名稱來輸出
+依照csv_filename指定的名稱來輸出，欄位有 名稱、地點、電話
