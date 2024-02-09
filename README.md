@@ -1,11 +1,18 @@
 # 目錄
-- [抓台灣娛樂城的地點 entertainment_city.py](#抓台灣娛樂城的地點-entertainment_citypy)(2024/02/09)
-- [依照姓名去撈司法判決書 download_judgment_book.py](#依照姓名去撈司法判決書-download_judgment_bookpy)(2023/10/07)
+
+|項目|檔案|更新日期|
+|---|---|---|
+|[抓台灣娛樂城的地點](#抓台灣娛樂城的地點)|entertainment_city.py|2024/02/09|
+[依照姓名去撈司法判決書](#依照姓名去撈司法判決書)|download_judgment_book.py|2023/10/07|
 
 
-# 抓台灣娛樂城的地點 entertainment_city.py
-2024/02/09
+
+# 抓台灣娛樂城的地點
+
 抓台灣娛樂城的地點，並輸出到檔案中
+
+- update: 2024/02/09
+- code: entertainment_city.py
 
 ## 操作方式
 1. 修正連結
@@ -19,11 +26,14 @@ python3 entertainment_city.py
 依照csv_filename指定的名稱來輸出，欄位有 名稱、地點、電話
 
 
-# 依照姓名去撈司法判決書 download_judgment_book.py
-2023/10/07
+# 依照姓名去撈司法判決書
+
 可協助去司法院的裁判書系統抓指定姓名的與法院的判決書內文
 
 [司法院的裁判書系統](https://judgment.judicial.gov.tw/FJUD/Default.aspx)
+
+- update: 2023/10/07
+- code: download_judgment_book.py
 
 ## 操作方式
 
